@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alireza Shahrabi Farahani | Portfolio</title>
+    <style>
+        :root {
+            --header-color: #003366;
+            --accent-color: #007acc;
+            --text-color: #333;
+            --bg-color: #f8f9fa;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--header-color);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+        header h1 {
+            color: var(--header-color);
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 5px;
+        }
+        h2 {
+            color: var(--header-color);
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            font-size: 1.8em;
+        }
+        .project-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .project-card h3 {
+            margin-top: 0;
+            color: var(--accent-color);
+        }
+        .button {
+            display: inline-block;
+            background-color: var(--header-color);
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: var(--accent-color);
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Alireza Shahrabi Farahani</h1>
+            <p>Mechanical Engineer | Researcher | CFD & Data Analysis Specialist</p>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                A highly analytical Mechanical Engineer with 14+ years of experience in applied fluid dynamics, CFD, and predictive modeling. Certified in Data Analysis, I specialize in translating complex data into actionable engineering design criteria. My expertise in Python, MATLAB, and SQL complements a deep background in aerodynamic analysis, structural validation, and performance optimization. I am passionate about applying my skills to solve complex challenges in energy systems and thermal-fluid sciences.
+            </p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Project Portfolio</h2>
+
+            <div class="project-card">
+                <h3>SGT-600 (IGT-25): Foundational Engineering Analysis</h3>
+                <p>Established a "digital twin" of a 10-stage axial compressor through comprehensive CFD and FEA, supporting manufacturing, root cause analysis, and identifying upgrade pathways.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Hot Ambient Solution (HAS) Upgrade for Frame 9 & V94.2 Turbines</h3>
+                <p>Led a retrofit program that increased gas turbine power output by 7-8% in hot climates. My work, which included 1D optimization, 3D design, and experimental validation, was published in a first-author paper.</p>
+            </div>
+            
+            <div class="project-card">
+                <h3>Development of an AI-Driven Airfoil Family</h3>
+                <p>Architected an AI-driven design tool using a neural network and genetic algorithm that reduced compressor airfoil design time by 50% and improved efficiency by 2%. This work resulted in a first-author publication.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>IGT25+ Advanced Aerodynamic & Structural Upgrade</h3>
+                <p>Integrated a full suite of advanced 3D aerodynamic techniques (Lean, Sweep, Bowing) with rigorous structural and experimental modal testing to validate a high-performance compressor upgrade.</p>
+            </div>
+        </section>
+
+        <section id="links">
+            <h2>Key Documents & Profiles</h2>
+            <a href="files/Alireza_Shahrabi_CV.pdf" class="button" target="_blank">Download Detailed CV (PDF)</a>
+            <a href="files/Alireza_Shahrabi_Portfolio.pdf" class="button" target="_blank">Download Full Portfolio (PDF)</a>
+            <a href="https://www.linkedin.com/in/alireza-shahrabi" class="button" target="_blank">LinkedIn Profile</a>
+            <a href="https://scholar.google.com/" class="button" target="_blank">Google Scholar</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Alireza Shahrabi Farahani</p>
+        </footer>
+    </div>
+
+</body>
+</html>
